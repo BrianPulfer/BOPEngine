@@ -1,0 +1,104 @@
+﻿  bopEngine.cpp
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\vertex.h(20): warning C4251: 'Vertex::vertexCoordinates': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Vertex'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\vertex.h(21): warning C4251: 'Vertex::normal': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Vertex'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\vertex.h(22): warning C4251: 'Vertex::textCoordinates': struct 'glm::tvec2<float,0>' needs to have dll-interface to be used by clients of class 'Vertex'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(133): note: see declaration of 'glm::tvec2<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\object.h(18): warning C4251: 'Object::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'Object'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\node.h(28): warning C4251: 'Node::positionMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Node'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\node.h(29): warning C4251: 'Node::finalPositionMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Node'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\node.h(31): warning C4251: 'Node::children': class 'std::list<Node *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Node'
+          with
+          [
+              _Ty=Node *
+          ]
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\node.h(20): note: see declaration of 'std::list<Node *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Node *
+          ]
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\node.h(18): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\material.h(32): warning C4251: 'Material::ambient': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Material'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\material.h(33): warning C4251: 'Material::diffuse': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Material'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\material.h(34): warning C4251: 'Material::specular': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Material'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\material.h(25): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\camera.h(21): warning C4251: 'Camera::viewMatrix': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\camera.h(22): warning C4251: 'Camera::eyeVector': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Camera'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\light.h(68): warning C4251: 'Light::color': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Light'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\light.h(69): warning C4251: 'Light::position': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Light'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\light.h(70): warning C4251: 'Light::ambient': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Light'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\light.h(71): warning C4251: 'Light::diffuse': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Light'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\light.h(72): warning C4251: 'Light::specular': struct 'glm::tvec4<float,0>' needs to have dll-interface to be used by clients of class 'Light'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(349): note: see declaration of 'glm::tvec4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\light.h(73): warning C4251: 'Light::direction': struct 'glm::tvec3<float,0>' needs to have dll-interface to be used by clients of class 'Light'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_vec.hpp(243): note: see declaration of 'glm::tvec3<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\list.h(13): warning C4251: 'List::nodes': class 'std::vector<Node *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'List'
+          with
+          [
+              _Ty=Node *
+          ]
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\list.h(13): note: see declaration of 'std::vector<Node *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Node *
+          ]
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\list.h(14): warning C4251: 'List::lights': class 'std::vector<Light *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'List'
+          with
+          [
+              _Ty=Light *
+          ]
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\list.h(14): note: see declaration of 'std::vector<Light *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Light *
+          ]
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\mesh.h(16): warning C4251: 'Mesh::faces': class 'std::vector<Face *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Mesh'
+          with
+          [
+              _Ty=Face *
+          ]
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\mesh.h(16): note: see declaration of 'std::vector<Face *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Face *
+          ]
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.h(138): warning C4251: 'bopEngine::perspective': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'bopEngine'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.h(139): warning C4251: 'bopEngine::ortho': struct 'glm::tmat4x4<float,0>' needs to have dll-interface to be used by clients of class 'bopEngine'
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\dependencies\glm\include\glm\detail\type_mat.hpp(304): note: see declaration of 'glm::tmat4x4<float,0>'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.h(144): warning C4251: 'bopEngine::materials': class 'std::vector<Material *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'bopEngine'
+          with
+          [
+              _Ty=Material *
+          ]
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.h(144): note: see declaration of 'std::vector<Material *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Material *
+          ]
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.h(145): warning C4251: 'bopEngine::textures': class 'std::vector<Texture *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'bopEngine'
+          with
+          [
+              _Ty=Texture *
+          ]
+  c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.h(145): note: see declaration of 'std::vector<Texture *,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=Texture *
+          ]
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.cpp(332): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\bopengine.cpp(1104): warning C4018: '<': signed/unsigned mismatch
+  bopEngine.vcxproj -> C:\Users\pvaln\OneDrive\Documenti\SUPSI\TerzoAnno\PrimoSemestre\Grafica\Progetto\labingsw022018201902supsige\x64\Debug\bopEngine.dll

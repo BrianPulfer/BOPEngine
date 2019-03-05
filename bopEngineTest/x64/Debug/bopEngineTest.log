@@ -1,0 +1,15 @@
+﻿  mainTest.cpp
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\node.h(18): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\material.h(25): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopenginetest\maintest.cpp(154): warning C4002: too many arguments for function-like macro invocation 'assert'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopenginetest\maintest.cpp(155): warning C4002: too many arguments for function-like macro invocation 'assert'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopenginetest\maintest.cpp(182): warning C4002: too many arguments for function-like macro invocation 'assert'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopenginetest\maintest.cpp(187): warning C4002: too many arguments for function-like macro invocation 'assert'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopenginetest\maintest.cpp(192): warning C4002: too many arguments for function-like macro invocation 'assert'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopenginetest\maintest.cpp(196): warning C4002: too many arguments for function-like macro invocation 'assert'
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopenginetest\maintest.cpp(249): warning C4002: too many arguments for function-like macro invocation 'assert'
+  testUtilities.cpp
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\node.h(18): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\pvaln\onedrive\documenti\supsi\terzoanno\primosemestre\grafica\progetto\labingsw022018201902supsige\bopengine\material.h(25): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  bopEngineTest.vcxproj -> C:\Users\pvaln\OneDrive\Documenti\SUPSI\TerzoAnno\PrimoSemestre\Grafica\Progetto\labingsw022018201902supsige\x64\Debug\bopEngineTest.exe

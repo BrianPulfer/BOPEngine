@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="clientApp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/clientApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-fexceptions" />
+					<Add option="-fPIC" />
+					<Add directory="../bopEngine" />
+					<Add directory="bin/Debug" />
+					<Add directory="../dependencies/glm/include" />
+				</Compiler>
+				<Linker>
+					<Add library="bopEngine" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/clientApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../bopEngine" />
+			<Add directory="bin/Debug" />
+			<Add directory="../dependencies/glm/include" />
+		</Compiler>
+		<Linker>
+			<Add library="bopEngine" />
+			<Add directory="../bopEngine/bin/Debug" />
+		</Linker>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
